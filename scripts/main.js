@@ -88,7 +88,7 @@ function addKeyPressHandler() {
         event.preventDefault();
         /*eslint no-console:"error"*/
         //custom console
-        console.log(event.keyCode);
+        //console.log(event.keyCode);
         if (event.keyCode === ESC_KEY) {
             hideDetails();
         }
